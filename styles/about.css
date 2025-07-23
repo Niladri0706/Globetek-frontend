@@ -1,0 +1,60 @@
+/* About Hero Section */
+.about-hero {
+  width: 100%;
+  min-height: 570px; /* 380px * 1.5 = 570px */
+  background: url('../assets/HTML Photos/About/Hero photo.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 41, 59, 0.45); /* dark overlay for text readability */
+}
+.about-hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+.about-hero-content h1 {
+  font-size: 3.2rem; /* 4rem - 20% = 3.2rem */
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.about-hero-content p {
+  font-size: 1.6rem; /* 2rem - 20% = 1.6rem */
+  font-weight: 400;
+}
+@media (max-width: 700px) {
+  .about-hero {
+    min-height: 330px; /* 220px * 1.5 = 330px */
+  }
+  .about-hero-content h1 {
+    font-size: 1.76rem; /* 2.2rem - 20% = 1.76rem */
+  }
+  .about-hero-content p {
+    font-size: 0.88rem; /* 1.1rem - 20% = 0.88rem */
+  }
+}
+
+.about-journey-section {
+  background: #fff;
+  padding: 48px 0 24px 0;
+  text-align: center;
+  position: relative;
+}
+.about-journey-label {
+  color: #b71c1c;
+  font-size: 0.84rem; /* 1.2rem * 0.7 */
+  margin-bottom: 12.6px;
+}
+.about-journey-title {
+  color: #232b39;
+  font-size: 2.1rem; /* 3rem * 0.7 */
+  margin: 0 0 28px 0;
+}
