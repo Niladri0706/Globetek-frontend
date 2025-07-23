@@ -1,1 +1,1 @@
-Frpontend for Globetek Solutions
+Frontend for Globetek Solutions
